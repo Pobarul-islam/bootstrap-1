@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 90px;
+  width: 130px;
   border: 8px solid #2c2f3f;
 }
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 300px;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1140px) {
   #header {
     left: -300px;
   }
@@ -206,13 +206,17 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/pobarul.png") top center; 
+	background-repeat: no-repeat;
+ 
+ 
 }
+
+
 
 #hero:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgba(5, 13, 24, 0.5);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -232,18 +236,18 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: greenyellow;
 }
 
 #hero p {
-  color: #fff;
+  color: gold;
   margin-bottom: 50px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #fff;
+  color: greenyellow;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
@@ -315,6 +319,9 @@ section {
   font-size: 26px;
   color: #173b6c;
 }
+.about{
+	text-align: center;
+}
 
 .about .content ul {
   list-style: none;
@@ -340,6 +347,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+	text-align: center;
 }
 
 .facts .count-box {
@@ -386,14 +394,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# SKills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
   display: block;
   background: none;
+	
 }
 
+.section-title{
+	text-align: center;
+}
 .skills .progress .skill {
   padding: 10px 0;
   margin: 0 0 6px 0;
